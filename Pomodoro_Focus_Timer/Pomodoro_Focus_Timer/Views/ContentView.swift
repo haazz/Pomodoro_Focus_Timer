@@ -9,15 +9,19 @@ import SwiftUI
 
 struct ContentView: View {
     @State private var selection = 1
+    @State var progressTime = 0
     
     var body: some View{
-        TabView(selection: $selection){
-            Record_Timer().tag(0)
-            Pomodoro_Timer().tag(1)
-            Focus_Timer().tag(2)
+        ZStack{
+            Color(red: 53 / 255, green: 54 / 255, blue: 58 / 255).ignoresSafeArea()
+            TabView(selection: $selection){
+                Record_Timer().tag(0)
+                Pomodoro_Timer(progressTime: $progressTime).tag(1)
+                Focus_Timer(progressTime: $progressTime).tag(2)
+            }
+            .tabViewStyle(.page)
+            .indexViewStyle(.page(backgroundDisplayMode: .always))
         }
-        .tabViewStyle(.page)
-        .indexViewStyle(.page(backgroundDisplayMode: .always))
     }
 }
 

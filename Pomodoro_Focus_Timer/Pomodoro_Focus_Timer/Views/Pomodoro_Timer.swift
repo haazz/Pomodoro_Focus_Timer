@@ -8,28 +8,33 @@
 import SwiftUI
 
 struct Pomodoro_Timer: View {
-    @State var countDownTimer = 5
-    @State var timerRunning = false
+    @State var countDownTimer = 25 * 60
+    @State var countDownRunning = false
+    @Binding var progressTime: Int
+    
     let timer = Timer.publish(every: 1, on: .main, in: .common).autoconnect()
     
     var body: some View {
         VStack {
-            Text("\(countDownTimer)").onReceive(timer) { _ in if countDownTimer > 0 && timerRunning {
+            Text("\(pomoFormat(progressTime: countDownTimer))").onReceive(timer) { _ in if countDownTimer > (-60 * 60) && countDownRunning {
                     countDownTimer -= 1
+                    progressTime += 1
                 } else {
-                    timerRunning = false
+                    countDownRunning = false
                 }
             }
+            .foregroundColor(.white)
             .font(.system(size: 80, weight: .bold))
             .opacity(0.80)
             HStack(spacing: 30) {
                 Button("Start") {
-                    timerRunning = true
-                }
+                    countDownRunning = true
+                }.foregroundColor(.white)
                 
                 Button("Reset") {
-                    countDownTimer = 5
-                }.foregroundColor(.red)
+                    countDownTimer = 25 * 60
+                    countDownRunning = false
+                }.foregroundColor(.white)
             }
         }
     }
@@ -37,6 +42,6 @@ struct Pomodoro_Timer: View {
 
 struct Pomodoro_Timer_Previews: PreviewProvider {
     static var previews: some View {
-        Pomodoro_Timer()
+        Pomodoro_Timer(progressTime: .constant(0))
     }
 }
