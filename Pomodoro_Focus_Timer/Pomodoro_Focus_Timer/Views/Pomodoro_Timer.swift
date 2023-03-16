@@ -1,13 +1,13 @@
 //
-//  ContentView.swift
+//  Pomodoro_Timer.swift
 //  Pomodoro_Focus_Timer
 //
-//  Created by 하지원 on 2023/03/15.
+//  Created by 하지원 on 2023/03/16.
 //
 
 import SwiftUI
 
-struct ContentView: View {
+struct Pomodoro_Timer: View {
     @State var countDownTimer = 5
     @State var timerRunning = false
     let timer = Timer.publish(every: 1, on: .main, in: .common).autoconnect()
@@ -35,8 +35,8 @@ struct ContentView: View {
     }
 }
 
-struct ContentView_Previews: PreviewProvider {
+struct Pomodoro_Timer_Previews: PreviewProvider {
     static var previews: some View {
-        ContentView()
+        Pomodoro_Timer()
     }
 }

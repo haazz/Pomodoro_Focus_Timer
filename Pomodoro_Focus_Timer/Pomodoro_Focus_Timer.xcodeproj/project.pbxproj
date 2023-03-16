@@ -11,6 +11,10 @@
 		194BCCFC29C2148800226F49 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 194BCCFB29C2148800226F49 /* ContentView.swift */; };
 		194BCCFE29C2148A00226F49 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 194BCCFD29C2148A00226F49 /* Assets.xcassets */; };
 		194BCD0129C2148A00226F49 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 194BCD0029C2148A00226F49 /* Preview Assets.xcassets */; };
+		195E4B7729C2CE4300B2587D /* Pocus_Timer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 195E4B7629C2CE4300B2587D /* Pocus_Timer.swift */; };
+		195E4B7B29C2CF1100B2587D /* Focus_Timer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 195E4B7A29C2CF1100B2587D /* Focus_Timer.swift */; };
+		195E4B7D29C2D0A800B2587D /* Pomodoro_Timer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 195E4B7C29C2D0A800B2587D /* Pomodoro_Timer.swift */; };
+		195E4B7F29C2DEC700B2587D /* Record_Timer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 195E4B7E29C2DEC700B2587D /* Record_Timer.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -19,6 +23,10 @@
 		194BCCFB29C2148800226F49 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		194BCCFD29C2148A00226F49 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		194BCD0029C2148A00226F49 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		195E4B7629C2CE4300B2587D /* Pocus_Timer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Pocus_Timer.swift; sourceTree = "<group>"; };
+		195E4B7A29C2CF1100B2587D /* Focus_Timer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Focus_Timer.swift; sourceTree = "<group>"; };
+		195E4B7C29C2D0A800B2587D /* Pomodoro_Timer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Pomodoro_Timer.swift; sourceTree = "<group>"; };
+		195E4B7E29C2DEC700B2587D /* Record_Timer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Record_Timer.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -51,8 +59,9 @@
 		194BCCF829C2148800226F49 /* Pomodoro_Focus_Timer */ = {
 			isa = PBXGroup;
 			children = (
+				195E4B7529C2CE0700B2587D /* Models */,
+				195E4B7429C2CD8500B2587D /* Views */,
 				194BCCF929C2148800226F49 /* Pomodoro_Focus_TimerApp.swift */,
-				194BCCFB29C2148800226F49 /* ContentView.swift */,
 				194BCCFD29C2148A00226F49 /* Assets.xcassets */,
 				194BCCFF29C2148A00226F49 /* Preview Content */,
 			);
@@ -65,6 +74,25 @@
 				194BCD0029C2148A00226F49 /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		195E4B7429C2CD8500B2587D /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				194BCCFB29C2148800226F49 /* ContentView.swift */,
+				195E4B7A29C2CF1100B2587D /* Focus_Timer.swift */,
+				195E4B7C29C2D0A800B2587D /* Pomodoro_Timer.swift */,
+				195E4B7E29C2DEC700B2587D /* Record_Timer.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		195E4B7529C2CE0700B2587D /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				195E4B7629C2CE4300B2587D /* Pocus_Timer.swift */,
+			);
+			path = Models;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -137,8 +165,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				195E4B7D29C2D0A800B2587D /* Pomodoro_Timer.swift in Sources */,
+				195E4B7B29C2CF1100B2587D /* Focus_Timer.swift in Sources */,
 				194BCCFC29C2148800226F49 /* ContentView.swift in Sources */,
 				194BCCFA29C2148800226F49 /* Pomodoro_Focus_TimerApp.swift in Sources */,
+				195E4B7F29C2DEC700B2587D /* Record_Timer.swift in Sources */,
+				195E4B7729C2CE4300B2587D /* Pocus_Timer.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
