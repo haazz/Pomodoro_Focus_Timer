@@ -11,10 +11,18 @@
 		194BCCFC29C2148800226F49 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 194BCCFB29C2148800226F49 /* ContentView.swift */; };
 		194BCCFE29C2148A00226F49 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 194BCCFD29C2148A00226F49 /* Assets.xcassets */; };
 		194BCD0129C2148A00226F49 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 194BCD0029C2148A00226F49 /* Preview Assets.xcassets */; };
-		195E4B7729C2CE4300B2587D /* Pocus_Timer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 195E4B7629C2CE4300B2587D /* Pocus_Timer.swift */; };
-		195E4B7B29C2CF1100B2587D /* Focus_Timer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 195E4B7A29C2CF1100B2587D /* Focus_Timer.swift */; };
-		195E4B7D29C2D0A800B2587D /* Pomodoro_Timer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 195E4B7C29C2D0A800B2587D /* Pomodoro_Timer.swift */; };
-		195E4B7F29C2DEC700B2587D /* Record_Timer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 195E4B7E29C2DEC700B2587D /* Record_Timer.swift */; };
+		195E4B7729C2CE4300B2587D /* timeFormat.swift in Sources */ = {isa = PBXBuildFile; fileRef = 195E4B7629C2CE4300B2587D /* timeFormat.swift */; };
+		195E4BA529C5756B00B2587D /* reset.png in Resources */ = {isa = PBXBuildFile; fileRef = 195E4BA129C5756B00B2587D /* reset.png */; };
+		195E4BA629C5756B00B2587D /* sliders.png in Resources */ = {isa = PBXBuildFile; fileRef = 195E4BA229C5756B00B2587D /* sliders.png */; };
+		195E4BA729C5756B00B2587D /* settings.png in Resources */ = {isa = PBXBuildFile; fileRef = 195E4BA329C5756B00B2587D /* settings.png */; };
+		195E4BA829C5756B00B2587D /* pause.png in Resources */ = {isa = PBXBuildFile; fileRef = 195E4BA429C5756B00B2587D /* pause.png */; };
+		195E4BAA29C5758100B2587D /* play.png in Resources */ = {isa = PBXBuildFile; fileRef = 195E4BA929C5758100B2587D /* play.png */; };
+		195E4BAE29C578A800B2587D /* right.png in Resources */ = {isa = PBXBuildFile; fileRef = 195E4BAD29C578A800B2587D /* right.png */; };
+		195E4C8929CAB63700B2587D /* FocusTimer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 195E4C8829CAB63700B2587D /* FocusTimer.swift */; };
+		195E4C8B29CAB66900B2587D /* PomodoroTimer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 195E4C8A29CAB66900B2587D /* PomodoroTimer.swift */; };
+		195E4C8D29CAB68400B2587D /* RecordTimer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 195E4C8C29CAB68400B2587D /* RecordTimer.swift */; };
+		195E4C9129CB31AF00B2587D /* Setting.swift in Sources */ = {isa = PBXBuildFile; fileRef = 195E4C9029CB31AF00B2587D /* Setting.swift */; };
+		195E4C9329CB362300B2587D /* recordFormat.swift in Sources */ = {isa = PBXBuildFile; fileRef = 195E4C9229CB362300B2587D /* recordFormat.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -23,10 +31,18 @@
 		194BCCFB29C2148800226F49 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		194BCCFD29C2148A00226F49 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		194BCD0029C2148A00226F49 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
-		195E4B7629C2CE4300B2587D /* Pocus_Timer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Pocus_Timer.swift; sourceTree = "<group>"; };
-		195E4B7A29C2CF1100B2587D /* Focus_Timer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Focus_Timer.swift; sourceTree = "<group>"; };
-		195E4B7C29C2D0A800B2587D /* Pomodoro_Timer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Pomodoro_Timer.swift; sourceTree = "<group>"; };
-		195E4B7E29C2DEC700B2587D /* Record_Timer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Record_Timer.swift; sourceTree = "<group>"; };
+		195E4B7629C2CE4300B2587D /* timeFormat.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = timeFormat.swift; sourceTree = "<group>"; };
+		195E4BA129C5756B00B2587D /* reset.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = reset.png; sourceTree = "<group>"; };
+		195E4BA229C5756B00B2587D /* sliders.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = sliders.png; sourceTree = "<group>"; };
+		195E4BA329C5756B00B2587D /* settings.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = settings.png; sourceTree = "<group>"; };
+		195E4BA429C5756B00B2587D /* pause.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = pause.png; sourceTree = "<group>"; };
+		195E4BA929C5758100B2587D /* play.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = play.png; sourceTree = "<group>"; };
+		195E4BAD29C578A800B2587D /* right.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = right.png; sourceTree = "<group>"; };
+		195E4C8829CAB63700B2587D /* FocusTimer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FocusTimer.swift; sourceTree = "<group>"; };
+		195E4C8A29CAB66900B2587D /* PomodoroTimer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PomodoroTimer.swift; sourceTree = "<group>"; };
+		195E4C8C29CAB68400B2587D /* RecordTimer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RecordTimer.swift; sourceTree = "<group>"; };
+		195E4C9029CB31AF00B2587D /* Setting.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Setting.swift; sourceTree = "<group>"; };
+		195E4C9229CB362300B2587D /* recordFormat.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = recordFormat.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -59,6 +75,7 @@
 		194BCCF829C2148800226F49 /* Pomodoro_Focus_Timer */ = {
 			isa = PBXGroup;
 			children = (
+				195E4B8529C55D5400B2587D /* Imgs */,
 				195E4B7529C2CE0700B2587D /* Models */,
 				195E4B7429C2CD8500B2587D /* Views */,
 				194BCCF929C2148800226F49 /* Pomodoro_Focus_TimerApp.swift */,
@@ -80,9 +97,10 @@
 			isa = PBXGroup;
 			children = (
 				194BCCFB29C2148800226F49 /* ContentView.swift */,
-				195E4B7A29C2CF1100B2587D /* Focus_Timer.swift */,
-				195E4B7C29C2D0A800B2587D /* Pomodoro_Timer.swift */,
-				195E4B7E29C2DEC700B2587D /* Record_Timer.swift */,
+				195E4C8829CAB63700B2587D /* FocusTimer.swift */,
+				195E4C8A29CAB66900B2587D /* PomodoroTimer.swift */,
+				195E4C8C29CAB68400B2587D /* RecordTimer.swift */,
+				195E4C9029CB31AF00B2587D /* Setting.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -90,9 +108,23 @@
 		195E4B7529C2CE0700B2587D /* Models */ = {
 			isa = PBXGroup;
 			children = (
-				195E4B7629C2CE4300B2587D /* Pocus_Timer.swift */,
+				195E4B7629C2CE4300B2587D /* timeFormat.swift */,
+				195E4C9229CB362300B2587D /* recordFormat.swift */,
 			);
 			path = Models;
+			sourceTree = "<group>";
+		};
+		195E4B8529C55D5400B2587D /* Imgs */ = {
+			isa = PBXGroup;
+			children = (
+				195E4BA429C5756B00B2587D /* pause.png */,
+				195E4BA929C5758100B2587D /* play.png */,
+				195E4BA129C5756B00B2587D /* reset.png */,
+				195E4BA329C5756B00B2587D /* settings.png */,
+				195E4BA229C5756B00B2587D /* sliders.png */,
+				195E4BAD29C578A800B2587D /* right.png */,
+			);
+			path = Imgs;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -153,8 +185,14 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				195E4BA729C5756B00B2587D /* settings.png in Resources */,
+				195E4BAA29C5758100B2587D /* play.png in Resources */,
 				194BCD0129C2148A00226F49 /* Preview Assets.xcassets in Resources */,
+				195E4BAE29C578A800B2587D /* right.png in Resources */,
+				195E4BA629C5756B00B2587D /* sliders.png in Resources */,
+				195E4BA829C5756B00B2587D /* pause.png in Resources */,
 				194BCCFE29C2148A00226F49 /* Assets.xcassets in Resources */,
+				195E4BA529C5756B00B2587D /* reset.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -165,12 +203,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				195E4B7D29C2D0A800B2587D /* Pomodoro_Timer.swift in Sources */,
-				195E4B7B29C2CF1100B2587D /* Focus_Timer.swift in Sources */,
 				194BCCFC29C2148800226F49 /* ContentView.swift in Sources */,
+				195E4C8929CAB63700B2587D /* FocusTimer.swift in Sources */,
 				194BCCFA29C2148800226F49 /* Pomodoro_Focus_TimerApp.swift in Sources */,
-				195E4B7F29C2DEC700B2587D /* Record_Timer.swift in Sources */,
-				195E4B7729C2CE4300B2587D /* Pocus_Timer.swift in Sources */,
+				195E4C8D29CAB68400B2587D /* RecordTimer.swift in Sources */,
+				195E4C9129CB31AF00B2587D /* Setting.swift in Sources */,
+				195E4C9329CB362300B2587D /* recordFormat.swift in Sources */,
+				195E4C8B29CAB66900B2587D /* PomodoroTimer.swift in Sources */,
+				195E4B7729C2CE4300B2587D /* timeFormat.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

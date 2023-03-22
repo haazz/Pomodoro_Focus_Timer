@@ -8,7 +8,6 @@
 import Foundation
 import SwiftUI
 
-
 func hour(progressTime: Int) -> String {
     if (progressTime / 3600) < 10 {
         return "0" + String(progressTime / 3600)
