@@ -9,9 +9,35 @@ import SwiftUI
 
 struct RecordTimer: View {
     @Binding var progressTime: Int
-
+    @State private var recordTime = RecordTime()
+    
     var body: some View {
-        Text(/*@START_MENU_TOKEN@*/"Hello, World!"/*@END_MENU_TOKEN@*/)
+        HStack{
+            ForEach(0..<5) { i in
+                if (recordTime.list[i] == 0) {
+                    Image("timeBar1").resizable()
+                        .frame(width: 50, height: 200)
+                        .padding(3)
+                } else if (recordTime.list[i] <= 60) {
+                    Image("timeBar2").resizable()
+                        .frame(width: 50, height: 200)
+                        .padding(3)
+                } else if (recordTime.list[i] <= 60 * 3) {
+                    Image("timeBar3").resizable()
+                        .frame(width: 50, height: 200)
+                        .padding(3)
+                } else if (recordTime.list[i] <= 60 * 5) {
+                    Image("timeBar4").resizable()
+                        .frame(width: 50, height: 200)
+                        .padding(3)
+                } else {
+                    Image("timeBar5").resizable()
+                        .frame(width: 50, height: 200)
+                        .padding(3)
+                }
+                    
+            }
+        }
         
     }
 }

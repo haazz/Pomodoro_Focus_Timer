@@ -11,6 +11,11 @@
 		194BCCFC29C2148800226F49 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 194BCCFB29C2148800226F49 /* ContentView.swift */; };
 		194BCCFE29C2148A00226F49 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 194BCCFD29C2148A00226F49 /* Assets.xcassets */; };
 		194BCD0129C2148A00226F49 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 194BCD0029C2148A00226F49 /* Preview Assets.xcassets */; };
+		194F498929CD51CA0070B711 /* timeBar3.png in Resources */ = {isa = PBXBuildFile; fileRef = 194F498429CD51CA0070B711 /* timeBar3.png */; };
+		194F498A29CD51CA0070B711 /* timeBar1.png in Resources */ = {isa = PBXBuildFile; fileRef = 194F498529CD51CA0070B711 /* timeBar1.png */; };
+		194F498B29CD51CA0070B711 /* timeBar5.png in Resources */ = {isa = PBXBuildFile; fileRef = 194F498629CD51CA0070B711 /* timeBar5.png */; };
+		194F498C29CD51CA0070B711 /* timeBar2.png in Resources */ = {isa = PBXBuildFile; fileRef = 194F498729CD51CA0070B711 /* timeBar2.png */; };
+		194F498D29CD51CA0070B711 /* timeBar4.png in Resources */ = {isa = PBXBuildFile; fileRef = 194F498829CD51CA0070B711 /* timeBar4.png */; };
 		195E4B7729C2CE4300B2587D /* timeFormat.swift in Sources */ = {isa = PBXBuildFile; fileRef = 195E4B7629C2CE4300B2587D /* timeFormat.swift */; };
 		195E4BA529C5756B00B2587D /* reset.png in Resources */ = {isa = PBXBuildFile; fileRef = 195E4BA129C5756B00B2587D /* reset.png */; };
 		195E4BA629C5756B00B2587D /* sliders.png in Resources */ = {isa = PBXBuildFile; fileRef = 195E4BA229C5756B00B2587D /* sliders.png */; };
@@ -31,6 +36,11 @@
 		194BCCFB29C2148800226F49 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		194BCCFD29C2148A00226F49 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		194BCD0029C2148A00226F49 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		194F498429CD51CA0070B711 /* timeBar3.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = timeBar3.png; sourceTree = "<group>"; };
+		194F498529CD51CA0070B711 /* timeBar1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = timeBar1.png; sourceTree = "<group>"; };
+		194F498629CD51CA0070B711 /* timeBar5.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = timeBar5.png; sourceTree = "<group>"; };
+		194F498729CD51CA0070B711 /* timeBar2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = timeBar2.png; sourceTree = "<group>"; };
+		194F498829CD51CA0070B711 /* timeBar4.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = timeBar4.png; sourceTree = "<group>"; };
 		195E4B7629C2CE4300B2587D /* timeFormat.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = timeFormat.swift; sourceTree = "<group>"; };
 		195E4BA129C5756B00B2587D /* reset.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = reset.png; sourceTree = "<group>"; };
 		195E4BA229C5756B00B2587D /* sliders.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = sliders.png; sourceTree = "<group>"; };
@@ -123,6 +133,11 @@
 				195E4BA329C5756B00B2587D /* settings.png */,
 				195E4BA229C5756B00B2587D /* sliders.png */,
 				195E4BAD29C578A800B2587D /* right.png */,
+				194F498529CD51CA0070B711 /* timeBar1.png */,
+				194F498729CD51CA0070B711 /* timeBar2.png */,
+				194F498429CD51CA0070B711 /* timeBar3.png */,
+				194F498629CD51CA0070B711 /* timeBar5.png */,
+				194F498829CD51CA0070B711 /* timeBar4.png */,
 			);
 			path = Imgs;
 			sourceTree = "<group>";
@@ -191,6 +206,11 @@
 				195E4BAE29C578A800B2587D /* right.png in Resources */,
 				195E4BA629C5756B00B2587D /* sliders.png in Resources */,
 				195E4BA829C5756B00B2587D /* pause.png in Resources */,
+				194F498A29CD51CA0070B711 /* timeBar1.png in Resources */,
+				194F498D29CD51CA0070B711 /* timeBar4.png in Resources */,
+				194F498929CD51CA0070B711 /* timeBar3.png in Resources */,
+				194F498B29CD51CA0070B711 /* timeBar5.png in Resources */,
+				194F498C29CD51CA0070B711 /* timeBar2.png in Resources */,
 				194BCCFE29C2148A00226F49 /* Assets.xcassets in Resources */,
 				195E4BA529C5756B00B2587D /* reset.png in Resources */,
 			);

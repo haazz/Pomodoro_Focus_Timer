@@ -7,14 +7,14 @@
 
 import Foundation
 
-class RecordTime: Identifiable, ObservableObject {
-    let id: UUID
-    @Published var time: Int
-    let insertDate: Date
+class RecordTime: ObservableObject {
+    @Published var list: [Int]
     
-    init(time: Int, insertDate: Date = Date.now) {
-        id = UUID()
-        self.time = time
-        self.insertDate = insertDate
+    init() {
+        list = [0, 60*10, 0, 0, 60*1, 60*2, 60*3]
+    }
+    
+    func insert(todayFocusTime: Int) {
+        list.insert(todayFocusTime, at: 0)
     }
 }
