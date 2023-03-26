@@ -10,12 +10,13 @@ import SwiftUI
 
 struct FocusTimer: View {
     @Binding var progressTime: Int
-    @State var currentDate = Date()
     @State var timerRunning = false
     let timer = Timer.publish(every: 1, on: .main, in: .common).autoconnect()
     
     var body: some View {
-        VStack {            
+        
+        VStack {
+            
             Text("\(timeFormat(progressTime:progressTime))").onReceive(timer) { _ in if progressTime < 86400 && timerRunning {
                 progressTime += 1
             } else {

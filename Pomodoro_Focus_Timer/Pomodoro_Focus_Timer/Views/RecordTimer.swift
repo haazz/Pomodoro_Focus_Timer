@@ -14,28 +14,31 @@ struct RecordTimer: View {
     var body: some View {
         HStack{
             ForEach(0..<5) { i in
-                if (recordTime.list[i] == 0) {
-                    Image("timeBar1").resizable()
-                        .frame(width: 50, height: 200)
-                        .padding(3)
-                } else if (recordTime.list[i] <= 60) {
-                    Image("timeBar2").resizable()
-                        .frame(width: 50, height: 200)
-                        .padding(3)
-                } else if (recordTime.list[i] <= 60 * 3) {
-                    Image("timeBar3").resizable()
-                        .frame(width: 50, height: 200)
-                        .padding(3)
-                } else if (recordTime.list[i] <= 60 * 5) {
-                    Image("timeBar4").resizable()
-                        .frame(width: 50, height: 200)
-                        .padding(3)
-                } else {
-                    Image("timeBar5").resizable()
-                        .frame(width: 50, height: 200)
-                        .padding(3)
+                VStack{
+                    if (recordTime.list[i] == 0) {
+                        Image("timeBar1").resizable()
+                            .frame(width: 50, height: 200)
+                            .padding(3)
+                    } else if (recordTime.list[i] <= 60*60) {
+                        Image("timeBar2").resizable()
+                            .frame(width: 50, height: 200)
+                            .padding(3)
+                    } else if (recordTime.list[i] <= 60*60*3) {
+                        Image("timeBar3").resizable()
+                            .frame(width: 50, height: 200)
+                            .padding(3)
+                    } else if (recordTime.list[i] <= 60*60*5) {
+                        Image("timeBar4").resizable()
+                            .frame(width: 50, height: 200)
+                            .padding(3)
+                    } else {
+                        Image("timeBar5").resizable()
+                            .frame(width: 50, height: 200)
+                            .padding(3)
+                    }
+                    Text(hour(progressTime: recordTime.list[i]) + ":" + sec(progressTime: recordTime.list[i]))
+                        .foregroundColor(.white)
                 }
-                    
             }
         }
         
